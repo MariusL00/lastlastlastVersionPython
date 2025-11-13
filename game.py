@@ -124,7 +124,6 @@ class Game:
 
     def menu(self) :
         if(self.state == GameState.MENU) :
-
             #Ajout du bouton instructions et du bouton replay
             self.instruction = Bouton(self.canvas, size=(470, 600), path="images/images/carre_mode.png", x=WIDTH/2-230, y=HEIGHT/2-300)
             self.bouton_start =  Bouton(self.canvas, size=(160, 56), x=WIDTH/2-80, y=HEIGHT/2+120)
